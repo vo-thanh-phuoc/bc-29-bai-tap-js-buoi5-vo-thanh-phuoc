@@ -1,0 +1,71 @@
+/* bài tập 1 */
+#diemChuan{
+    margin-left: -520px;
+    width: 24%;
+}
+.diem__chuan{
+    padding-bottom: 20px;
+}
+.card-body p{
+    padding: 20px 0;
+}
+.diem{
+    padding-bottom: 30px;
+}
+#monToan{
+    margin-left: -160px;
+    
+}
+#monLy{
+    margin-left: -160px;
+}
+#monHoa{
+    margin-left: -160px;
+}
+#diemKhuVuc{
+    margin-left: -520px;
+    width: 24%;
+}
+.khu__vuc{
+    padding-bottom: 20px;
+}
+#diemDoiTuong{
+    margin-left: -520px;
+    width: 24%;
+}
+#tongDiem{
+    width: 20%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#ketQua1{
+    height: 40px;
+}
+
+/* 
+*Bài 4: tính tiền điện
+ */
+ #nhapTen{
+     margin-left: -110px;
+ }
+ #dienNangTieuThu{
+     margin-left: -30px;
+ }
+ .tabs{
+     padding: 30px 0;
+ }
+ #tinhTienDien{
+     margin-left: 50%;
+     transform: translateX(-50%);
+ }
+ #ketQua2{
+     height: 40px;
+ }
+ .card-body.content{
+     position: relative;
+ }
+ .text{
+     position: absolute;
+     top: -15px;
+     right: 30px;
+ }

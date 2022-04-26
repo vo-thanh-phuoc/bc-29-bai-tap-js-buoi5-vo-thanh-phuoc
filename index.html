@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>javascript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-md-10 container m-auto">
+            <div class="card">
+                <div class="card-header text-center">
+                    Bảng tra kết quả thi đại học
+                </div>
+                <div class="card-body content">
+                    <div class="row diem__chuan">
+                        <div class="col-md-6">
+                            <table>Điểm chuẩn</table>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="diemChuan" type="number">
+                        </div>
+                    </div>
+                    <div class="row khu__vuc">
+                        <div class="col-md-6">
+                            <table>Khu vực</table>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="diemKhuVuc" type="text">
+                        </div>
+                    </div>
+                    <div class="row doi__tuong">
+                        <div class="col-md-6">
+                            <table>Đối tượng</table>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="diemDoiTuong" type="number">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>Ghi chú: <br/>
+                             khu vực A: cộng 2điểm <br/>
+                            khu vực B: cộng 1 điểm <br/>
+                            khu vực C: cộng 0.5 điểm <br/>
+                            <br/>
+                            đối tượng 1: cộng 2.5 điểm <br/>
+                            đối tượng 2: cộng 1.5 điểm <br/>
+                            đối tượng 3: cộng 0.5 điểm <br/>
+                        </p>
+                    </div>
+                    <p class="text-center">Điểm thi ba môn</p>
+                    <div class="row diem">
+                        <div class="col-md-2">
+                            <table>Toán</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="monToan" type="number">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Lý</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="monLy" type="number">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Hóa</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="monHoa" type="number">
+                        </div>
+                    </div>
+                    
+                    <button id="tongDiem" class="btn btn-success">Kết quả</button>
+                </div>
+                <div id="ketQua1" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!-- bài 2: tính tiền điện -->
+    <div class="row container m-auto">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header text-center">
+                    Bảng tính tiền điện
+                </div>
+                <div class="card-body">
+                   <div class="row tabs">
+                       <div class="col-md-3">
+                           <table>Họ và tên:</table>
+                       </div>
+                       <div class="col-md-3">
+                           <input id="nhapTen" type="text">
+                       </div>
+                       <div class="col-md-3">
+                           <table>Điện năng tiêu thụ kw/h:</table>
+                       </div>
+                       <div class="col-md-3">
+                           <input id="dienNangTieuThu" type="number">
+                       </div>
+                   </div>
+                   <button id="tinhTienDien" class="btn btn-success">Tính tiền</button>
+                </div>
+                <div id="ketQua2" class="card-footer text-muted">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
